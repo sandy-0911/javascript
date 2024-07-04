@@ -22,6 +22,19 @@ const objj1 = { 3: "c" , 4: "d"}
 // console.log(obj3)
 
 const obj3 = {...obb1, ...objj1}
-console.log(obj3)
+// console.log(obj3)
 
- 
+//Destructuring of a recieved object 
+//actually useful in react 
+const course = {
+    coursename : "Js in Hindi ",
+    price: "egg",
+    courseInstructor: "Hitesh"
+}
+
+//baar baar courseInstructor use karna is tedious so uska alias bana denge 
+
+const {courseInstructor : instructor}= course 
+// console.log(courseInstructor)
+// instead of console.log(course.courseInstructor)
+console.log(instructor)
