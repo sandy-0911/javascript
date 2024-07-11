@@ -37,7 +37,13 @@ function loginUserMessage(username = "sam"){
 
 // console.log(loginUserMessage("hitesh"))
 // console.log(loginUserMessage("hitesh"))
+//rest operator ...
+//this is the spread operator also ....
+function calPrice(...num1){
+    return num1
+}
 
+calPrice(200,400,300)
 
 function calculateCartPrice(val1, val2, ...num1){
     return num1
