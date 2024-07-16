@@ -8,7 +8,8 @@
 
 ## project 1 : Colour Changer
  
-```javascipt
+```javascript
+
 const buttons = document.querySelectorAll('.button')
 const body = document.querySelector("body")
 
@@ -31,6 +32,7 @@ buttons.forEach( function (button){
     }
   })
 })
+
 ```
 
 ## Project 2 : BMI Calculator
