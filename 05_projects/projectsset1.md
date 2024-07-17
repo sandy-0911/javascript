@@ -61,7 +61,7 @@ form.addEventListener('submit', function (e) {
   }
 });
 ```
-## Project 3
+## Project 3 : Digital Clock
 
 ```javascript
 
@@ -75,7 +75,7 @@ setInterval(function () {
 }, 1000);
 ```
 
-## Project 4
+## Project 4 : Number Guessing Game
 
 ```javascript
 
